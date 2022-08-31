@@ -9,7 +9,7 @@ app.get('/', (res, req) => {
 })
 
 
-const port = 4005;
+const port = process.env.PORT || 4005;
 
 
 app.listen(port, () => {
